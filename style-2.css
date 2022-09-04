@@ -5,6 +5,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -68,3 +73,39 @@ a {
     padding: 8px 32px;
     border: none;
 } 
+
+.process-container {
+    height: 400px;
+}
+
+.process-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 50px;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.step-image {
+    border: 6px solid rgb(110, 110, 225);
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .process-text {
+    text-align: center;
+  }

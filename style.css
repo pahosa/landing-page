@@ -17,7 +17,7 @@ div {
     align-items: center;
     padding: 0px 200px;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-around;
 }
 
 ul {
@@ -34,6 +34,7 @@ a {
     display: flex; 
     height: 400px; 
     align-items: center;
+    gap: 150px;
 }
 
 .left-hero {
@@ -51,14 +52,16 @@ a {
 .heading {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8; 
+    color: #F9FAF8;
+    width: 400px; /* Feels like a cheap way to make it look the same as the example */
 }
 
 .hero-text,
 a {
     font-size: 18px;
     color: #e5e7eb;
-    max-width: 450px;
+    max-width: 400px;
+
 }
 
 .hero-text {
@@ -95,7 +98,6 @@ a {
     flex-wrap: wrap;
     width: 200px;
     justify-content: center;
-    gap: 8px;
 }
 
 .step-image {
@@ -131,7 +133,8 @@ a {
     align-self: flex-end;
     font-weight: 700;
     font-size: 28px;
-    margin-right: 300px; /* feels like a cheap way to align not using flex */
+    margin-right: 500px; /* feels like a cheap way to align not using flex */
+
 }
 
 .footer {

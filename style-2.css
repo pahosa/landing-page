@@ -134,4 +134,11 @@ a {
     margin-right: 300px; /* feels like a cheap way to align */
 }
 
-
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}

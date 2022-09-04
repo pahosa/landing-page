@@ -75,7 +75,7 @@ a {
 } 
 
 .process-container {
-    height: 400px;
+    height: 500px;
 }
 
 .process-header {
@@ -109,3 +109,29 @@ a {
   .process-text {
     text-align: center;
   }
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote {
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 300px; /* feels like a cheap way to align */
+}
+
+

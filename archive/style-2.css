@@ -1,0 +1,187 @@
+/* I created this version as a 2nd go around going section by section vs my first version.
+I think copied this file to style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 200px;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex; 
+    height: 400px; 
+    align-items: center;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+
+}
+
+.right-hero {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8; 
+}
+
+.hero-text,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+}
+
+.hero-text {
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #eee;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 8px 32px;
+    border: none;
+} 
+
+.process-container {
+    height: 500px;
+}
+
+.process-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 50px;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.step-image {
+    border: 6px solid rgb(110, 110, 225);
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .process-text {
+    text-align: center;
+  }
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote {
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 300px; /* feels like a cheap way to align not using flex */
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.newsletter {
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 50px 150px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta-header,
+.cta-text {
+  color: white;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-text {
+  font-size: 18px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #eee;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 8px 32px;
+    border: 2px solid white;  
+}
